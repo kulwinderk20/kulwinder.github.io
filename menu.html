@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfaf7;
+    }
+
+    header {
+      background-color: #ec591f;
+      padding: 15px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: white;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+
+    nav ul li a:hover {
+      background-color: #575757;
+    }
+
+    main {
+      padding: 30px 10%;
+    }
+
+    .menu-section {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .menu-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .menu-col {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      width: 300px;
+    }
+
+    .menu-col h2 {
+      background-color: #d68843;
+      color: #404344;
+      font-family: cursive;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .menu-item {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .menu-item img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #da0505;
+      padding: 5px;
+    }
+
+    .menu-item h3 {
+      margin: 10px 0 5px;
+    }
+
+    .menu-item h4 {
+      color: #444;
+      font-weight: normal;
+    }
+
+    .button {
+      background-color: #e87649;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      cursor: pointer;
+      margin-top: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #d52e1b;
+    }
+
+    footer {
+      background-color: #ec591f;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Flavour of India</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="order.html">Order</a></li>
+    <li><a href="about.html">About Us</a></li>
+  
+  </ul>
+</nav>
+
+<main>
+  <section class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-row">
+      <!-- Breakfast -->
+      <div class="menu-col">
+        <h2>Breakfast</h2>
+        <div class="menu-item">
+          <img src="food 7.jpg" alt="South Indian Special">
+          <h3>South Indian Special</h3>
+          <h4>18€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <img src="pizza.jpeg" alt="Chicken Pizza">
+          <h3>Chicken Pizza</h3>
+          <h4>10€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <img src="burger.jpeg" alt="Burger">
+          <h3>Burger</h3>
+          <h4>4€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Lunch -->
+      <div class="menu-col">
+        <h2>Lunch</h2>
+        <div class="menu-item">
+          <img src="food 4.jpg" alt="Tasty Dish 01">
+          <h3>Tasty Dish 01</h3>
+          <h4>18€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <img src="food 5.jpg" alt="Upma Dosa">
+          <h3>Upma Dosa</h3>
+          <h4>15€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <img src="food 6.jpg" alt="Aloo Paratha">
+          <h3>Aloo Paratha</h3>
+          <h4>6€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Dinner -->
+      <div class="menu-col">
+        <h2>Dinner</h2>
+        <div class="menu-item">
+          <img src="food 1.jpg" alt="Dum Biryani">
+          <h3>Dum Biryani</h3>
+          <h4>20€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <img src="food 2.jpg" alt="Rajasthani Special">
+          <h3>Rajasthani Special</h3>
+          <h4>15€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+        <div class="menu-item">
+          <img src="food 3.jpg" alt="North Indian Special">
+          <h3>North Indian Special</h3>
+          <h4>10€</h4>
+          <button class="button">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 website FI.Oy. All rights reserved.
+</footer>
+
+</body>
+</html>
